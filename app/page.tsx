@@ -415,13 +415,13 @@ export default function TheLolliGlowPage() {
                 { label: 'Chemical Peel',         gradient: 'linear-gradient(135deg, #E4D0C0 0%, #D4A882 100%)', light: true },
                 { label: 'High Frequency',        gradient: 'linear-gradient(135deg, #1C0F0A 0%, #3C2010 100%)', light: false },
                 { label: 'Glass Skin',            gradient: 'linear-gradient(135deg, #3C2010 0%, #B8845A 100%)', light: false },
-                { label: 'Microneedling',         gradient: 'linear-gradient(135deg, #D4A882 0%, #F0E4D8 100%)', light: true },
               ].map((item, i) => (
                 <div key={i} className="relative aspect-[3/4] overflow-hidden group cursor-pointer flex flex-col justify-end p-4 md:p-6" style={{ background: item.gradient }}>
                   <div className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity duration-500" style={{ background: item.light ? '#1C0F0A' : '#FAF3EE' }} />
                   <span className={`${sans} text-[9px] md:text-[10px] tracking-[0.2em] uppercase relative z-10 ${item.light ? 'text-[#7A5A4A]/70' : 'text-[#FAF3EE]/70'}`}>{item.label}</span>
                 </div>
               ))}
+              <div className="relative aspect-[3/4] bg-[#FAF3EE]" />
             </div>
             <p className={`${sans} text-center text-[#7A5A4A] text-sm mt-8 md:mt-10 opacity-50`}>
               Follow on Instagram for the latest work →&nbsp;
