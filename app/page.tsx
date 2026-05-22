@@ -170,7 +170,7 @@ export default function TheLolliGlowPage() {
 
         {/* HERO */}
         <section className="relative min-h-screen flex items-center pt-24 pb-16 md:pt-36 md:pb-24 px-6 lg:px-12 overflow-hidden" style={{ background: '#1C0F0A' }}>
-          <div className="absolute hidden lg:block pointer-events-none" style={{ right: '4%', top: '10%', bottom: '10%', width: '36%' }}>
+          <div className="absolute hidden lg:block pointer-events-none" style={{ right: '6%', top: '16%', bottom: '16%', width: '26%' }}>
             <img src="/hero.jpg" alt="The Lolli Glow" className="w-full h-full object-cover object-center" style={{ display: 'block' }} />
             <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, #1C0F0A 0%, rgba(28,15,10,0.6) 25%, transparent 55%)' }} />
             <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(28,15,10,0.4) 0%, transparent 15%, transparent 85%, rgba(28,15,10,0.4) 100%)' }} />
