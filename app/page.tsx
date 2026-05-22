@@ -341,6 +341,7 @@ export default function TheLolliGlowPage() {
         <section id="about" className="py-16 md:py-28 lg:py-32 px-6 lg:px-12 bg-[#FAF3EE]">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 md:gap-16 lg:gap-28 items-start">
             <div>
+              <img src="/logo.png" alt="The Lolli Glow" className="w-40 md:w-48 mb-8" />
               <p className={`${sans} text-[#B8845A] text-xs font-medium tracking-[0.3em] uppercase mb-5`}>About Lauren</p>
               <h2 className={`${serif} text-4xl md:text-5xl lg:text-6xl font-light text-[#1C0F0A] leading-tight mb-6 md:mb-8`}>
                 Where your skin gets<br />
