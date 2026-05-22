@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --font-cormorant: 'Cormorant Garamond', Georgia, serif;
+  --font-dm-sans: 'DM Sans', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FAF3EE;
+  color: #1C0F0A;
+  -webkit-font-smoothing: antialiased;
+}
